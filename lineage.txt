@@ -1,0 +1,40 @@
+查询日 2026-10-03
+任务数 8 登记行数 12
+表 click_hist
+job03 v2 src events win 2026-09-29 2026-10-03 incl [..] click 39 comment 24 fav 9 like 28 share 26 view 24
+表 comment_daily
+当日无有效血缘
+表 fav_all
+job07 v1 src events win 2026-09-24 2026-10-03 incl [..] click 61 comment 35 fav 17 like 52 share 50 view 46
+表 interact_daily
+job01 v1 src events win 2026-09-28 2026-10-03 incl [..] click 44 comment 31 fav 9 like 30 share 31 view 27
+job04 v1 src events win 2026-10-02 2026-10-03 incl [..] click 14 comment 12 fav 4 like 18 share 6 view 11
+表 share_cnt
+job08 v3 src events win 2026-10-01 2026-10-04 incl [..] click 27 comment 22 fav 13 like 25 share 21 view 21
+表 share_daily
+job02 v1 src events win 2026-10-03 2026-10-04 incl [..) click 7 comment 3 like 9 share 2 view 9
+表 view_hist
+当日无有效血缘
+血缘空洞
+click_hist 2026-09-26
+click_hist 2026-09-27
+click_hist 2026-09-28
+view_hist 2026-09-27
+view_hist 2026-09-28
+view_hist 2026-09-29
+view_hist 2026-10-03
+补采刷新
+job08 v2 v3 REFRESH click +2 share +1
+任务处置
+job01 v1 DONE
+job02 v1 DONE
+job03 v1 ROLLED_BACK 作废
+job03 v2 DONE 顶替
+job04 v1 DONE
+job05 v1 ROLLED_BACK 作废
+job05 v2 DONE 顶替
+job06 v1 RUNNING 无产物
+job07 v1 DONE
+job08 v1 ABORT 无产物
+job08 v2 DONE 被刷新
+job08 v3 DONE 刷新
