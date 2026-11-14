@@ -1,0 +1,12 @@
+{"job_id": "job01", "src_tbl": "events", "dst_tbl": "interact_daily", "win_from": "2026-09-28", "win_to": "2026-10-03", "incl": "[..]", "ver": 1, "state": "DONE"}
+{"job_id": "job02", "src_tbl": "events", "dst_tbl": "share_daily", "win_from": "2026-10-03", "win_to": "2026-10-04", "incl": "[..)", "ver": 1, "state": "DONE"}
+{"job_id": "job03", "src_tbl": "events", "dst_tbl": "click_hist", "win_from": "2026-09-26", "win_to": "2026-10-03", "incl": "[..]", "ver": 1, "state": "ROLLED_BACK"}
+{"job_id": "job04", "src_tbl": "events", "dst_tbl": "interact_daily", "win_from": "2026-10-02", "win_to": "2026-10-03", "incl": "[..]", "ver": 1, "state": "DONE"}
+{"job_id": "job05", "src_tbl": "events", "dst_tbl": "view_hist", "win_from": "2026-09-27", "win_to": "2026-10-03", "incl": "[..]", "ver": 1, "state": "ROLLED_BACK"}
+{"job_id": "job06", "src_tbl": "events", "dst_tbl": "comment_daily", "win_from": "2026-10-03", "win_to": "2026-10-03", "incl": "[..]", "ver": 1, "state": "RUNNING"}
+{"job_id": "job07", "src_tbl": "events", "dst_tbl": "fav_all", "win_from": "2026-09-24", "win_to": "2026-10-03", "incl": "[..]", "ver": 1, "state": "DONE"}
+{"job_id": "job08", "src_tbl": "events", "dst_tbl": "share_cnt", "win_from": "2026-09-28", "win_to": "2026-09-30", "incl": "[..]", "ver": 1, "state": "ABORT"}
+{"job_id": "job03", "src_tbl": "events", "dst_tbl": "click_hist", "win_from": "2026-09-29", "win_to": "2026-10-03", "incl": "[..]", "ver": 2, "state": "DONE"}
+{"job_id": "job05", "src_tbl": "events", "dst_tbl": "view_hist", "win_from": "2026-09-30", "win_to": "2026-10-03", "incl": "[..)", "ver": 2, "state": "DONE"}
+{"job_id": "job08", "src_tbl": "events", "dst_tbl": "share_cnt", "win_from": "2026-10-01", "win_to": "2026-10-04", "incl": "[..]", "ver": 2, "state": "DONE"}
+{"job_id": "job08", "src_tbl": "events", "dst_tbl": "share_cnt", "win_from": "2026-10-01", "win_to": "2026-10-04", "incl": "[..]", "ver": 3, "state": "DONE"}
